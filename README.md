@@ -28,4 +28,46 @@ This project provides a simple yet effective method for **automated anomaly dete
 
 ---
 
+## 🚀 Getting Started
 
+Follow these steps to set up and run this project on your local machine.
+
+### 📁 Prerequisites
+
+- Python 3.x installed
+- `pip` (Python package manager)
+
+---
+
+### ⚙️ Step-by-Step Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/AryaHaldankar/Anomaly-Detection-for-Server-Computers/.git
+   cd Anomaly-Detection-for-Server-Computers
+
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+
+3. **Activate the Virtual Environment**  
+   ***- On Wndows***
+   ```bash
+   venv\Scripts\activate
+   ```  
+  ***- On Mac/Linux***
+  ```bash
+  source venv/bin/activate
+  ```
+4. **Install Project Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   
+5. **Add the `data/` Folder**
+
+   Download the `data` folder from the provided link [Drive Link](https://drive.google.com/drive/folders/10VLLqmoMUGGbMM590s9thchlIkT7ps0e?usp=sharing).
+
+   Place the entire `data/` folder inside the root of the project directory — the same directory where your scripts and `requirements.txt` are located.
+6. **Run Script**
+   ```bash
+   python3 programming_exercise_8_anomaly_detection.py
